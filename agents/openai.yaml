@@ -1,0 +1,24 @@
+interface:
+  display_name: "K线形态识别"
+  short_description: "截图或PandaData行情的K线结构识别"
+  default_prompt: "使用 $skill-kline-pattern-vision 严格区分截图事实与 PandaData 数据，并输出候选形态、确认条件和失效条件。"
+
+safety:
+  read_only_market_data: true
+  can_place_orders: false
+  can_modify_accounts: false
+  credentials_in_files: false
+  credential_policy: "仅在运行时从环境变量或 ~/.pandadata/pandadata.env 读取；禁止写入任何 skill 文件、日志或输出。"
+
+modes:
+  - screenshot
+  - pandadata
+  - hybrid
+frequencies:
+  - 1m
+  - 5m
+  - 10m
+  - 15m
+  - 30m
+  - 60m
+  - 1d

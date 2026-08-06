@@ -1,0 +1,14 @@
+---
+description: K-line pattern analysis rules
+globs:
+  - "**/*.py"
+  - "SKILL.md"
+  - "references/**/*.md"
+alwaysApply: false
+---
+
+# K-line Pattern Vision
+
+Read `../SKILL.md` before changing or running this project. Reuse the existing scripts. Use only user screenshots and approved PandaData data for quantitative claims. Never cross A-share lunch breaks or synthesize missing bars. Mark partial final bars and distinguish screenshot estimates from structured facts.
+
+Credentials must be read only at runtime from the documented environment variables or local credential file. Never write accounts, passwords, tokens, cookies, or authorization headers to code, tests, output, logs, or version control. Do not place orders or provide direct trading instructions.
