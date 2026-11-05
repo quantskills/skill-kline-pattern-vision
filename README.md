@@ -121,3 +121,6 @@ python3 -m pytest -q
 ## 数据边界
 
 只使用获准 PandaData 数据或用户截图。不使用网页、券商接口、其他行情源、未声明缓存、合成数据或替代数据。数据不足、接口为空或失败时必须报告状态，不能静默补齐。
+
+
+Pandadata 兼容维护：[abgyjaguo](https://github.com/abgyjaguo)，保留原项目作者署名。

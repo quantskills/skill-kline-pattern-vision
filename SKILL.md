@@ -152,3 +152,7 @@ python -m pytest -q
 测试覆盖 OHLCV校验、重复和排序、分钟聚合、午休边界、partial末根、指标窗口、HH/HL/LH/LL、候选形态和 JSON CLI。测试数据仅为本地单元测试数据，不得当作市场数据。
 
 本 skill 只能读取并分析获准的行情数据和用户截图，不下单、不修改账户/持仓、不回测、不优化策略、不登录注册、不刷新凭证、不写凭证，不使用网页或其他行情源替代 PandaData。分析不构成投资建议。
+
+## Pandadata compatibility
+
+[Pandadata 1.0.6 compatibility](references/pandadata-compatibility.md) — exact SDK baseline, validation scope, and shared guidance for all supported agent runtimes.

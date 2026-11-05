@@ -73,3 +73,6 @@ Tests cover OHLCV validation, duplicate and ordering errors, intraday aggregatio
 HH means a higher high, HL a higher low, LH a lower high, and LL a lower low. Candlestick and chart patterns remain candidates until their confirmation conditions are met. Every candidate should state evidence, confirmation, invalidation, alternative explanations, and confidence. The skill does not calculate unsupported win rates or issue direct trading instructions.
 
 Only approved PandaData data and user-provided screenshots may be used. Web data, broker APIs, undeclared caches, synthetic bars, and substitute data sources are prohibited.
+
+
+Pandadata compatibility maintenance: [abgyjaguo](https://github.com/abgyjaguo). Existing authorship is retained.
